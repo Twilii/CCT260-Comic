@@ -3,19 +3,19 @@ img {
 }
 
 body {
-    cursor: url('../images/master_sword_cursor.png') 0 0, default;
+    cursor: url('../assets/master_sword_cursor.png') 0 0, default;
 }
 
 #hidden_path {
     color: black;
     text-decoration: none;
-    cursor: url('../images/master_sword_cursor.png') 0 0, default;
+    cursor: url('../assets/master_sword_cursor.png') 0 0, default;
 }
 
 #clearing {
     color: black;
     text-decoration: none;
-    cursor: url('../images/master_sword_cursor.png') 0 0, default;
+    cursor: url('../assets/master_sword_cursor.png') 0 0, default;
 }
 
 #layout {
