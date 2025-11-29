@@ -1,0 +1,12 @@
+img {
+    width: 65%;
+}
+
+body {
+    cursor: url('../assets/master_sword_cursor.png') 0 0, default;
+}
+
+#layout {
+    display: flex;
+    gap: 50px;
+}
