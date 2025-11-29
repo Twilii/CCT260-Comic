@@ -74,10 +74,8 @@ html, body {
 .optionPress {
 
 	color: white;
-	text-decoration: none;
 	font-size: 25px;
 	text-align: center;
-	/* text-decoration: none; */
 
 	background: rgba(255, 255, 255, 0.4);
 	border-radius: 20px;
@@ -113,3 +111,7 @@ html, body {
 
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
