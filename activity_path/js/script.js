@@ -14,6 +14,6 @@ function clearGreenery(bushElement) {
     if (bushesCleared >= 4) {
         document.getElementById("theWay").style.display = "flex"
         document.getElementById("storyText").innerText =
-            "A fork is revealed. One path emenates a mysterious sound. The other leads to a hollow tree. Choose your way...";
+            "A fork is revealed. One path emenates a mysterious sound. Another leads to a hollow tree. The third rings with the Korok's laughter. Choose your way...";
     }
 }

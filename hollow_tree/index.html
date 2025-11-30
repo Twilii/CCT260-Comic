@@ -9,29 +9,61 @@
 <body>
 
 
+<!-- story text 1 -->
 
+<div id="story1" class="storyBox">
 
-<div class="storyBox">
-
-	<h2 class="storyText">HOLLOW TREE PATH</h2>
+	<h2 class="storyText">Hollow Tree Path</h2>
 
 </div>
 
+<!-- story text 2 -->
 
+<div id="story2" class="storyBox" style="display:none;">
 
-<div class="optionButtons">
+	<h2 class="storyText">A clearing reveals two paths...</h2>
+
+</div>
+
+<!-- story text 3 -->
+
+<div id="story3" class="storyBox" style="display:none;">
+
+	<h2 class="storyText">The fairy beckons you to come closer... The deer instills upon you a familiar feeling...</h2>
+
+</div>
+
+<!-- button group 1 -->
+
+<div id="buttonGroup1" class="optionButtons">
 	
-	<button class="optionPress"><a href="../sword/index.html">Hollow Tree</a></button>
-	<button class="optionPress"><a href="../insert text/index.html">missing</a></button> <!-- insert folder path -->
+	<button id="button1" class="optionPress">Continue...</button>
 
 </div>
 
+<!-- button 2 -->
 
+<div id="buttonGroup2" class="optionButtons" style="display:none;">
+	
+	<button id="button2" class="optionPress">Continue...</button>
+
+</div>
+
+<!-- button 3 -->
+
+<div id="buttonGroup3" class="optionButtons" style="display:none;">
+	
+	<button id="button3" class="optionPress"><a href="../fairy/index.html">Fairy</a></button>
+	<button id="button3" class="optionPress"><a href="../deer/index.html">Deer</a></button>
+
+</div>
+
+<!-- permanent buttons for backtracking -->
 
 <div class="backtrackButtons">
 	
 	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
-	<button class="backtrackPress">Previous</button>
+	<button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
 
 </div>
 

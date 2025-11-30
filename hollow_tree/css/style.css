@@ -4,7 +4,7 @@
 
 html, body  {
 	
-	background-image: url("../assets/clearing.png");
+	background-image: url("../assets/hollow_tree.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -29,6 +29,8 @@ html, body  {
     position: fixed;
     left: 35%;
     right: 35%;
+
+
 
 }
 
@@ -116,8 +118,6 @@ html, body  {
 	padding: 10px;
 
 }
-
-/* button element */
 
 a {
 	text-decoration: none;
