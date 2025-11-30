@@ -8,32 +8,41 @@
 </head>
 <body>
 
-
-
-
-<div class="storyBox">
-
-	<h2 class="storyText">To reveal the path you must clear the greenery...</h2>
-
-</div>
-
-
-
-<div class="optionButtons">
-	
-	<button class="optionPress"><a href="../hollow_tree/index.html">Hollow Tree</a></button>
-	<button class="optionPress"><a href="../clearing/index.html">clearing</a></button>
-
-</div>
-
-
+<!-- permanent buttons for backtracking -->
 
 <div class="backtrackButtons">
 	
-	<button class="backtrackPress">Home</button>
+	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
 	<button class="backtrackPress">Previous</button>
 
 </div>
+
+<!-- story box and story text -->
+
+<div class="storyBox">
+
+	<h2 class="storyText" id="storyText">To reveal the path you must clear the greenery...</h2>
+
+</div>
+
+<!-- images to be cleared to reveal next steps -->
+
+<img onclick="clearGreenery(this)" id="bush1" src="./assets/bush1.png">
+<img onclick="clearGreenery(this)" id="bush2" src="./assets/bush2.png">
+<img onclick="clearGreenery(this)" id="bush3" src="./assets/bush3.png">
+<img onclick="clearGreenery(this)" id="bush4" src="./assets/bush4.png">
+
+
+
+<div id="theWay" class="optionButtons" style="display:none">
+	
+	<button class="optionPress"><a href="../hollow_tree/index.html">Hollow Tree</a></button>
+	<button class="optionPress"><a href="../clearing/index.html">Clearing</a></button>
+
+</div>
+
+
+
 
 
 
