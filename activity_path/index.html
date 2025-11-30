@@ -8,14 +8,6 @@
 </head>
 <body>
 
-<!-- permanent buttons for backtracking -->
-
-<div class="backtrackButtons">
-	
-	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
-	<button class="backtrackPress">Previous</button>
-
-</div>
 
 <!-- story box and story text -->
 
@@ -32,7 +24,7 @@
 <img onclick="clearGreenery(this)" id="bush3" src="./assets/bush3.png">
 <img onclick="clearGreenery(this)" id="bush4" src="./assets/bush4.png">
 
-
+<!-- option buttons -->
 
 <div id="theWay" class="optionButtons" style="display:none">
 	
@@ -42,7 +34,14 @@
 </div>
 
 
+<!-- permanent buttons for backtracking -->
 
+<div class="backtrackButtons">
+	
+	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
+	<button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
+
+</div>
 
 
 
