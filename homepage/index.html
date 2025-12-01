@@ -6,19 +6,18 @@
     <title>Entering the woods</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body>
-    <h1>Lost Woods Entrance</h1>
-    <p>You pass the Woodland Tower and approach the Lost Woods from the east. You're determined to get to the Master Sword at its centre. As you enter the woods, you see a hidden path and a broad clearing.</p>
-    
-    <div id="layout">
-        <img src="assets/homepage.png">
-
-        <div id="choice">
-            <p>Do you...</p>
-            <button><a id="hidden_path" href="../activity_path/index.html">Brave the hidden path</a></button>
-            <button><a id="clearing" href="../clearing/index.html">Traverse the clearing</a></button>
-            <p>Note: This story contains sound effects using the audio element. Please enable "Media Autoplay" (or equivalent) in your browser's settings and raise the volume for the best experience.</p>
-        </div>
+<body>    
+    <div class="storyBox">
+        <h2 class="storyText" id="storyText">You pass the Woodland Tower and approach the Lost Woods from the east. You're determined to get to the Master Sword at its centre. As you enter the woods, you see a hidden path and a broad clearing.</h2>
     </div>
+
+    <h2 class="storyText">Note: This story contains sound effects using the audio element. Please enable "Media Autoplay" (or equivalent) in your browser's settings and raise the volume for the best experience.</p>
+
+    <div id="theWay" class="optionButtons">
+	<button class="optionPress"><a href="../activity_path/index.html">Brave the hidden path</a></button>
+	<button class="optionPress"><a href="../clearing/index.html">Traverse the clearing</a></button>
+    </div>
+
 </body>
 </html>
+
