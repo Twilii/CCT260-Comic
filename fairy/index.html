@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>The Fairy Way</title>
 </head>
 <body>
-    
+
+<!-- first text box -->
+<div id="text1" class="textBox">
+    <h2>Having chosen to follow the fairy, you're left with one path...</h2>
+</div>
+
+<!-- second text box -->
+<div id="text2" class="textBox">
+    <h2>You're reluctant to move but push yourself through it and down the path...</h2>
+</div>
+
+<!-- selection buttons -->
+<button id="continue1">Continue..</button>
+<button id="continue2"><a href="../sword/index.html">Continue..</a></button>
+
+<!-- permanent buttons for comic -->
+<div class="backtrackButtons">
+    <button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
+    <button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
+</div>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
