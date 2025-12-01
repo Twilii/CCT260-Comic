@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Korok's Laugh</title>
 </head>
 <body>
-    
+
+<div class="textBox">
+    <h2>The sounds of laughing forest creatures have led you back to where you began.</h2>
+</div>
+
+<button id="continue"><a href="../homepage/index.html">Continue..</a></button>
+
+<audio controls autoplay hidden>
+    <source src="assets/yahaha.mp3" type="audio/mp3">
+</audio>
+
+<!-- permanent buttons for comic -->
+<div class="backtrackButtons">
+    <button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
+    <button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
+</div>
+
 </body>
 </html>
