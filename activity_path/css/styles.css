@@ -1,6 +1,9 @@
 
-/* Full page size + background image */
+* {
+	cursor: url('../assets/master_sword_cursor.png') 0 0, default;
+}
 
+/* Full page size + background image */
 
 html, body  {
 	
@@ -11,8 +14,6 @@ html, body  {
 	height:100%;
 	margin: 0;
 
-	cursor: url('../assets/master_sword_cursor.png') 0 0, default;
-	
 }
 
 
@@ -160,5 +161,3 @@ a {
 	width: 50%;
 	
 }
-
-

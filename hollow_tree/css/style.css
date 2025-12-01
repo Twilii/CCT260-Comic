@@ -1,6 +1,8 @@
+* {
+	cursor: url('../assets/master_sword_cursor.png') 0 0, default;
+}
 
 /* Full page size + background image */
-
 
 html, body  {
 	
@@ -10,9 +12,6 @@ html, body  {
 	background-position: center;
 	height:100%;
 	margin: 0;
-
-	cursor: url('../assets/master_sword_cursor.png') 0 0, default;
-	
 }
 
 
@@ -75,7 +74,6 @@ html, body  {
 	bottom: 20px;
 	left: 45%;
 	gap: 20px;
-
 }
 
 
@@ -88,7 +86,6 @@ html, body  {
 	background: rgba(255, 255, 255, 0.4);
 	border-radius: 20px;
 	padding: 20px;
-
 }
 
 
@@ -103,7 +100,7 @@ html, body  {
 	bottom: 20px;
 	left: 20px;
 	gap: 10px;
-
+	
 }
 
 
@@ -116,7 +113,6 @@ html, body  {
 	background: rgba(255, 255, 255, 0.4);
 	border-radius: 15px;
 	padding: 10px;
-
 }
 
 a {
