@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hollow Tree</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>hollow tree path</h1>
+
+
+<!-- story text 1 -->
+
+<div id="story1" class="storyBox">
+
+	<h2 class="storyText">Hollow Tree Path</h2>
+
+</div>
+
+<!-- story text 2 -->
+
+<div id="story2" class="storyBox" style="display:none;">
+
+	<h2 class="storyText">You walk up to the hollow tree. It appears to have a mouth. You climb in...</h2>
+
+</div>
+
+<!-- story text 3 -->
+
+<div id="story3" class="storyBox" style="display:none;">
+
+	<h2 class="storyText">You hear the tree whisper: "I can take you where you want to go...Will you trust me..?</h2>
+
+</div>
+
+<!-- button group 1 -->
+
+<div id="buttonGroup1" class="optionButtons">
+	
+	<button id="button1" class="optionPress">Continue...</button>
+
+</div>
+
+<!-- button 2 -->
+
+<div id="buttonGroup2" class="optionButtons" style="display:none;">
+	
+	<button id="button2" class="optionPress">Continue...</button>
+
+</div>
+
+<!-- button 3 -->
+
+<div id="buttonGroup3" class="optionButtons" style="display:none;">
+	
+	<button id="button3" class="optionPress"><a href="../sword/index.html">Trust the Tree</a></button>
+
+</div>
+
+<!-- permanent buttons for backtracking -->
+
+<div class="backtrackButtons">
+	
+	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
+	<button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
+
+</div>
+
+
+
+
+<script src="js/script.js"></script>
 </body>
 </html>

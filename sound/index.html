@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sound Path</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    
+
+
+<!-- story text 1 -->
+
+<div id="story1" class="storyBox">
+
+	<h2 class="storyText">SOUND PATH</h2>
+
+</div>
+
+<!-- story text 2 -->
+
+<div id="story2" class="storyBox" style="display:none;">
+
+	<h2 class="storyText">The mysterious sound leads you deep into the dense forest...</h2>
+
+</div>
+
+<!-- story text 3 -->
+
+<div id="story3" class="storyBox" style="display:none;">
+
+	<h2 class="storyText">After walking for an hour, you see a clearing come into view. You recognize it as the clearing from the start of your journey...</h2>
+
+</div>
+
+<!-- button group 1 -->
+
+<div id="buttonGroup1" class="optionButtons">
+	
+	<button id="button1" class="optionPress">Continue...</button>
+
+</div>
+
+<!-- button 2 -->
+
+<div id="buttonGroup2" class="optionButtons" style="display:none;">
+	
+	<button id="button2" class="optionPress">Continue...</button>
+
+</div>
+
+<!-- button 3 -->
+
+<div id="buttonGroup3" class="optionButtons" style="display:none;">
+	
+	<button id="button3" class="optionPress"><a href="../clearing/index.html">Go into the Clearing</a></button>
+
+</div>
+
+<!-- permanent buttons for backtracking -->
+
+<div class="backtrackButtons">
+	
+	<button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
+	<button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
+
+</div>
+
+
+
+
+<script src="js/script.js"></script>
 </body>
 </html>

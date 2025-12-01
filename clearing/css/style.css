@@ -1,0 +1,126 @@
+
+/* Full page size + background image */
+
+
+html, body  {
+	
+	background-image: url("../assets/clearing.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100%;
+	margin: 0;
+
+	cursor: url('../assets/master_sword_cursor.png') 0 0, default;
+	
+}
+
+
+/* story dialogue box*/
+
+
+.storyBox {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+
+    /* position: absolute; */
+    position: fixed;
+    left: 35%;
+    right: 35%;
+
+}
+
+
+.storyText {
+
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-shadow:
+		-2px -2px 0 black,
+		2px -2px 0 black,
+		-2px 2px 0 black,
+		2px 2px 0 black;
+
+/* What the text shadow does in order:
+		top left outline
+		top right outline
+		bottom left outline
+		bottom right outline*/
+
+	
+	display: inline-block;
+	justify-content: center;
+
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+
+/* story buttons */
+
+
+.optionButtons {
+
+	display: flex;
+	justify-content: center;
+
+	position: fixed;
+	bottom: 20px;
+	left: 45%;
+	gap: 20px;
+
+}
+
+
+.optionPress {
+
+	color: white;
+	font-size: 25px;
+	text-align: center;
+
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+
+/* backtrack buttons */
+
+.backtrackButtons {
+
+	display: flex;
+	justify-content: center;
+
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	gap: 10px;
+
+}
+
+
+.backtrackPress {
+
+	color: white;
+	font-size: 15px;
+	text-align: center;
+
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	padding: 10px;
+
+}
+
+/* button element */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
