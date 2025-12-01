@@ -10,3 +10,5 @@ document.getElementById("continue1").onclick = function () {
     document.getElementById("text2").style.display = "block";
     document.getElementById("continue2").style.display = "inline-block";
 };
+
+localStorage.setItem("hasMetFairy", "true");

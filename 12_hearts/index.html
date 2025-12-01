@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>The Wrong Path</title>
 </head>
 <body>
@@ -14,13 +14,11 @@
         Just as the sword's point was about to be freed, the last of your life force is drained and you fall to the ground.</h2>
 </div>
 
-<button id="tryAgain"><a href="../homepage/index.html">Try Again?</a></button>
+<button id="tryAgain"><a id="reset" href="../homepage/index.html">Try Again?</a></button>
 
-<!-- permanent buttons for comic -->
-<div class="backtrackButtons">
-    <button class="backtrackPress"><a href="../homepage/index.html">Home</a></button>
-    <button onclick="window.history.go(-1);return false;" class="backtrackPress">Previous</button>
-</div>
-    
+<audio controls autoplay hidden>
+    <source src="assets/death.mp3" type="audio/mp3">
+</audio>
+<script src="js/script.js"></script>
 </body>
 </html>
